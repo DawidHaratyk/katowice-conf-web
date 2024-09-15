@@ -6,37 +6,40 @@ import RegistrationPage from "./modules/RegistrationPage";
 import InformationsPage from "./modules/InformationsPage";
 import SponsorsPage from "./modules/SponsorsPage";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: "",
-        element: <Navigate to="konferencja" replace />,
-      },
-      {
-        path: "konferencja",
-        element: <ConferencePage />,
-      },
-      {
-        path: "program",
-        element: <ProgramPage />,
-      },
-      {
-        path: "rejestracja",
-        element: <RegistrationPage />,
-      },
-      {
-        path: "informacje",
-        element: <InformationsPage />,
-      },
-      {
-        path: "sponsorzy",
-        element: <SponsorsPage />,
-      },
-    ],
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      children: [
+        {
+          path: "",
+          element: <Navigate to="konferencja" replace />,
+        },
+        {
+          path: "konferencja",
+          element: <ConferencePage />,
+        },
+        {
+          path: "program",
+          element: <ProgramPage />,
+        },
+        {
+          path: "rejestracja",
+          element: <RegistrationPage />,
+        },
+        {
+          path: "informacje",
+          element: <InformationsPage />,
+        },
+        {
+          path: "sponsorzy",
+          element: <SponsorsPage />,
+        },
+      ],
+    },
+  ],
+  { basename: import.meta.env.DEV ? "/" : "/katowice-conf-web/" }
+);
 
 export default router;
