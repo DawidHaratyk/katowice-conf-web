@@ -26,7 +26,7 @@ kardiologa dziecięcego - dr hab. n. med. A. Morka, GCZD Katowice`,
   },
   {
     time: "10.45-11.15",
-    content: `Skorygowane przełożenie wielkich naczyń– ocena morfologii i funkcji prawej i
+    content: `Skorygowane przełożenie wielkich naczyń – ocena morfologii i funkcji prawej i
 lewej komory w badaniu rezonansu magnetycznego serca – dr. n. med. Z. Olczak, GCZD
 Katowice`,
   },
@@ -51,11 +51,11 @@ Mainwaring, Stanford, USA`,
   {
     time: "13.30-13.45",
     content: `PA+VSD+ MAPCA’s z unaczynieniem płuc od lewej t. wieńcowej – opis
-przypadku- lek. L. Zalewska, GCZD, Katowice`,
+przypadku - lek. L. Zalewska, GCZD, Katowice`,
   },
   {
     time: "13.45-14.15",
-    content: `PA+VSD+MAPCA’s – rola kardiologii interwencyjnej - dr n. med. Krzysztof Kocot, GCZD,
+    content: `PA+VSD+MAPCA’s – rola kardiologii interwencyjnej - dr n. med. K. Kocot, GCZD,
 Katowice`,
   },
   {
@@ -111,7 +111,7 @@ function ProgramPage() {
         <div className="flex flex-col gap-2">
           <h3 className="text-2xl font-bold p-1">Środa dn. 02.10.2024</h3>
           <h4 className="font-bold p-1 mb-8">
-            Aula SUM im. Prof. Zahorskiego, ul. Medyków 18, Katowice
+            Aula A-3 ŚUM im. Prof. Zahorskiego, ul. Medyków 18, Katowice
           </h4>
           <h4 className="font-bold p-1 text-xl">Plan konferencji</h4>
           <h4 className="text-xl font-bold bg-[#a0b7c7] p-1 rounded-lg mb-2">
@@ -144,8 +144,8 @@ function ProgramPage() {
               SESJA 2
             </h4>
             <p className="text-gray-600 px-2">
-              Moderator: dr P. Stanek, prof. G. Brzezińska-Rajszys, dr M.
-              Buczyński
+              dr P. Stanek, dr n. med. D. Pypłacz, prof. G. Brzezińska-Rajszys,
+              dr n. med. M. Buczyński
             </p>
           </div>
           <div className="flex flex-col gap-4">
